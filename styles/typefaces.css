@@ -1,0 +1,27 @@
+@font-face {
+  font-family: Fuse Display;
+  src: url(../assets/typefaces/FuseV.2Display-Book.woff2);
+}
+
+@font-face {
+  font-family: Fuse Display;
+  src: url(../assets/typefaces/FuseV.2Display-BookItalic.woff2);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Fuse Display;
+  src: url(../assets/typefaces/FuseV.2Display-ExtraBold.woff2);
+  font-style: bold;
+}
+
+@font-face {
+  font-family: Fuse;
+  src: url(../assets/typefaces/FuseV.2Text-Book.woff2);
+}
+
+@font-face {
+  font-family: Fuse;
+  src: url(../assets/typefaces/FuseV.2Text-BookItalic.woff2);
+  font-style: italic;
+}
