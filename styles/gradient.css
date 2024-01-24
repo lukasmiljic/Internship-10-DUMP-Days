@@ -37,6 +37,7 @@
   color: white;
   content: attr(data);
   font-size: 16px;
+  font-family: 'Fuse';
   transition: 200ms ease-in-out;
 }
 
@@ -50,4 +51,18 @@
 
 .gradient-button:hover::after {
   color: black;
+}
+
+.gradient-text {
+  display: inline-block;
+  font-size: 72px;
+  background-size: 100%;
+  background-image: linear-gradient(
+    44.61deg,
+    #00b5c1 9.43%,
+    #4336b9 41.88%,
+    #fa4343 106.56%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
