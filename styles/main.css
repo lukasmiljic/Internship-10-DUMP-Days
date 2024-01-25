@@ -62,3 +62,27 @@ header nav ul li {
 .hero .title-area .gradient-button{
   margin-bottom: 352px;
 }
+
+.statistics {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  overflow: scroll;
+  scrollbar-width: none;
+  margin-top: 216px;
+}
+
+.statistics::-webkit-scrollbar {
+  display: none;
+}
+
+.item {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  margin-right: 80px;
+}
+
+.item p{
+  margin-top: 0px;
+}
