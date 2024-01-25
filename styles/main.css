@@ -7,3 +7,20 @@ body {
   background-color: black;
   color: white;
 }
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1232px;
+  margin: 0 auto;
+}
+
+nav ul li {
+  display: inline;
+  font-family: 'Fuse';
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 48px;
+}
