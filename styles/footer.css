@@ -29,13 +29,16 @@
   padding: 1.5rem;
   border-bottom: 1px solid rgba(245, 245, 247, 0.1);
 }
-.form_for_questions_number_of_characters {
-  position: absolute;
-  bottom: -25px;
-  right: 0;
+.footer__submit_and_number_of_characters {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
 }
 .footer__gradient-button {
-  position: absolute;
-  bottom: -100px;
-  right: 0;
+  align-self: flex-end;
+}
+.footer__separation_line {
+  background-color: var(--white);
+  opacity: 0.1;
+  height: 1px;
 }
