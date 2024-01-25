@@ -7,15 +7,7 @@
   border: none;
   outline: none;
   position: relative;
-  background: linear-gradient(
-    124.93deg,
-    #0d8fd3 5.44%,
-    #0b60bb 17.95%,
-    #0a3aa7 36.44%,
-    #6a387d 69.53%,
-    #c53754 105.59%,
-    #fa5240 117.57%
-  );
+  background: var(--gradient-4);
   cursor: pointer;
   z-index: 1;
 }
@@ -58,12 +50,7 @@
   font-size: 122px;
   line-height: 120px;
   background-size: 100%;
-  background-image: linear-gradient(
-    44.61deg,
-    #00b5c1 9.43%,
-    #4336b9 41.88%,
-    #fa4343 106.56%
-  );
+  background: var(--gradient-4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

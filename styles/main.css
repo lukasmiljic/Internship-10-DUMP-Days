@@ -1,4 +1,5 @@
 @import url("./typefaces.css");
+@import url("./color.css");
 @import url("./gradient.css");
 
 body {
@@ -59,7 +60,7 @@ header nav ul li {
   margin-bottom: 24px;
 }
 
-.hero .title-area .gradient-button{
+.hero .title-area .gradient-button {
   margin-bottom: 352px;
 }
 
@@ -83,6 +84,84 @@ header nav ul li {
   margin-right: 80px;
 }
 
-.item p{
+.item p {
   margin-top: 0px;
+}
+
+#statistics-gradient-1{
+  background: conic-gradient(
+    from 90deg at 73.72% 50%,
+    #c75593 -157.26deg,
+    #6a4293 89.27deg,
+    #c75593 202.74deg,
+    #6a4293 449.27deg
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#statistics-gradient-2 {
+  background: conic-gradient(
+    from 117.55deg at 29.17% 50%,
+    #694696 -23.56deg,
+    #2361a6 107.58deg,
+    #c75593 232.77deg,
+    #694696 336.44deg,
+    #2361a6 467.58deg
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#statistics-gradient-3 {
+  background: conic-gradient(
+    from 117.55deg at 29.17% 50%,
+    #694696 -40.41deg,
+    #2361a6 38.26deg,
+    #694696 319.59deg,
+    #2361a6 398.26deg
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#statistics-gradient-4 {
+  background: conic-gradient(
+    from 103.77deg at -7.1% 67.63%,
+    #c75593 -1.87deg,
+    #2361a6 281.68deg,
+    #694696 332.49deg,
+    #c75593 358.13deg,
+    #2361a6 641.68deg
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#statistics-gradient-5 {
+  background: conic-gradient(
+    from 80.16deg at 53.24% 50%,
+    #694696 -47.23deg,
+    #804b73 97.91deg,
+    #ab415c 150.01deg,
+    #c35493 216.76deg,
+    #694696 312.77deg,
+    #804b73 457.91deg
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#statistics-gradient-6 {
+  background: conic-gradient(
+    from 70.42deg at 62.39% 60.9%,
+    #694696 -38.75deg,
+    #c88f6f 117.45deg,
+    #ab415c 221.55deg,
+    #804b73 291.42deg,
+    #694696 321.25deg,
+    #c88f6f 477.45deg
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
