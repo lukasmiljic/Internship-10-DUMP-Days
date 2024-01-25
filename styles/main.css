@@ -6,7 +6,7 @@ body {
   padding: 0px;
   background-color: black;
   color: white;
-  font-family: 'Fuse';
+  font-family: "Fuse";
 }
 
 .hero {
@@ -22,10 +22,11 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 152px;
 }
 
-.dump-logo{
-  content:url("../assets/images/logo-text.svg");
+.dump-logo {
+  content: url("../assets/images/logo-text.svg");
 }
 
 header nav ul li {
@@ -43,17 +44,21 @@ header nav ul li {
   text-align: center;
 }
 
-.subtitle {
+.hero .title-area .subtitle {
   font-size: 24px;
   line-height: 28px;
 }
 
-.hero .title-area .title{
+.hero .title-area .title {
   font-size: 122px;
   line-height: 120px;
   margin-bottom: 88px;
 }
 
-.hero .title-area .date{
+.hero .title-area .date {
   margin-bottom: 24px;
+}
+
+.hero .title-area .gradient-button{
+  margin-bottom: 352px;
 }
