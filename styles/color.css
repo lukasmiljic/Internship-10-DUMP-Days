@@ -1,0 +1,58 @@
+:root {
+  /* MONO */
+  --black-color: #000;
+  --dark-grey: #54545f;
+  --grey: #8a8a99;
+  --light-grey: #e9e9ec;
+  --white: #f5f5f7;
+  --white-20: #f5f5f733;
+  --white-5: #f5f5f70d;
+
+  /* GRADIENTS */
+  --gradient-1: linear-gradient(89.12deg, #37f3e1 -40.27%, #a109ff 101.93%);
+  --gradient-2: linear-gradient(
+    44.61deg,
+    #00b5c1 9.43%,
+    #4336b9 41.88%,
+    #fa4343 106.56%
+  );
+  --gradient-3: linear-gradient(
+    58.11deg,
+    #0022c1 26.81%,
+    #7b47b2 57.59%,
+    #ed6aa5 82.34%
+  );
+  --gradient-4: linear-gradient(
+    124.93deg,
+    #0d8fd3 5.44%,
+    #0b60bb 17.95%,
+    #0a3aa7 36.44%,
+    #6a387d 69.53%,
+    #c53754 105.59%,
+    #fa5240 117.57%
+  );
+  --gradient-5: linear-gradient(180deg, #0066ff 24.48%, #ff0000 100%);
+  --gradient-6: linear-gradient(
+    180deg,
+    #0066ff 24.48%,
+    rgba(0, 209, 255, 0.81) 100%
+  );
+  --gradient-7: linear-gradient(
+    156.23deg,
+    #0d8fd3 -0.74%,
+    #0b60bb 11.13%,
+    #0a3aa7 28.67%,
+    #6a387d 60.05%,
+    #c53754 94.26%,
+    #fa5240 105.63%,
+    #fcdda3 127.15%
+  );
+  --gradient-8: linear-gradient(
+    123.15deg,
+    rgba(13, 143, 211, 0.68) -3.37%,
+    rgba(10, 58, 167, 0.68) 17.75%,
+    rgba(197, 55, 84, 0.68) 53.11%,
+    rgba(250, 82, 64, 0.68) 70.34%,
+    rgba(252, 221, 163, 0.68) 103.4%
+  );
+}
