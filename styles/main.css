@@ -6,10 +6,12 @@ body {
   padding: 0px;
   background-color: black;
   color: white;
+  font-family: 'Fuse';
 }
 
 .hero {
   display: flex;
+  flex-direction: column;
   max-width: 1232px;
   margin: 0 auto;
 }
@@ -22,10 +24,36 @@ header {
   justify-content: space-between;
 }
 
+.dump-logo{
+  content:url("../assets/images/logo-text.svg");
+}
+
 header nav ul li {
   display: inline;
   font-family: "Fuse";
   font-size: 16px;
   cursor: pointer;
   margin-left: 48px;
+}
+
+.title-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.hero .title-area .title{
+  font-size: 122px;
+  line-height: 120px;
+  margin-bottom: 88px;
+}
+
+.hero .title-area .date{
+  margin-bottom: 24px;
 }
