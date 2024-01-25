@@ -1,0 +1,41 @@
+@import url(color.css);
+.footer__title {
+  text-align: center;
+}
+.footer__social_media_text {
+  text-align: center;
+}
+.footer__social_media_text {
+  margin-top: 2rem;
+}
+.footer__social_media_outer_container {
+  display: flex;
+  justify-content: center;
+}
+.footer__social_media {
+  width: 160px;
+  height: 40px;
+}
+.form_for_questions {
+  margin: 1rem auto;
+  width: 504px;
+  position: relative;
+}
+.form_for_questions_question {
+  background-color: var(--white-5);
+  padding: 1.5rem;
+}
+.form_for_questions_item {
+  padding: 1.5rem;
+  border-bottom: 1px solid rgba(245, 245, 247, 0.1);
+}
+.form_for_questions_number_of_characters {
+  position: absolute;
+  bottom: -25px;
+  right: 0;
+}
+.footer__gradient-button {
+  position: absolute;
+  bottom: -100px;
+  right: 0;
+}
