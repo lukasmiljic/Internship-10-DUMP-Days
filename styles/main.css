@@ -15,6 +15,7 @@ body {
   flex-direction: column;
   max-width: 1232px;
   margin: 0 auto;
+  padding: 22px;
 }
 
 header {
@@ -23,11 +24,16 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  padding: 16px 0px;
   margin-bottom: 152px;
 }
 
 .dump-logo {
   content: url("../assets/images/logo-text.svg");
+}
+
+header nav ul {
+  margin: 0;
 }
 
 header nav ul li {
@@ -36,6 +42,11 @@ header nav ul li {
   font-size: 16px;
   cursor: pointer;
   margin-left: 48px;
+}
+
+.hamburger-menu {
+  display: none;
+  cursor: pointer;
 }
 
 .title-area {
@@ -88,7 +99,7 @@ header nav ul li {
   margin-top: 0px;
 }
 
-#statistics-gradient-1{
+#statistics-gradient-1 {
   background: conic-gradient(
     from 90deg at 73.72% 50%,
     #c75593 -157.26deg,
@@ -164,4 +175,53 @@ header nav ul li {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 1050px){
+  nav {
+    display: none;
+  }
+  .hamburger-menu {
+    display: inline-block;
+  }
+  header {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .hero {
+    padding: 22px;
+  }
+  
+  .dump-logo {
+    content: url("../assets/images/logo.svg");
+  }
+  
+  .hero .title-area .subtitle {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .hero .title-area #second-subtitle {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .hero .title-area .title {
+    font-size: 54px;
+    line-height: 68px;
+  }
+  .statistics {
+    margin-top: 272px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .statistics .item {
+    margin-right: 0px;
+    margin-bottom: 72px;
+  }
+  .statistics .item .gradient-text {
+    font-size: 54px;
+    line-height: 58px;
+  }
 }
