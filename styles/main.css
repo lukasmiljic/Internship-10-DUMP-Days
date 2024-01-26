@@ -46,7 +46,7 @@ header nav ul li {
   transition: 200ms ease-in-out;
 }
 
-header nav ul li:hover{
+header nav ul .nav-item:hover{
   background: var(--gradient-4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
