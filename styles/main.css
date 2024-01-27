@@ -2,12 +2,31 @@
 @import url("./color.css");
 @import url("./gradient.css");
 
+/* CSS reset 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}*/
+
 body {
-  margin: 0px;
-  padding: 0px;
   background-color: black;
   color: white;
   font-family: "Fuse";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0%;
+  color: #fff;
+}
+
+h2 {
+  font-weight: 800;
+  line-height: 120px;
+  letter-spacing: -2%;
+  color: var(--white);
+  font-size: 122px;
+  font-family: "Fuse Display";
 }
 
 .hero {
@@ -232,4 +251,4 @@ header nav ul .nav-item:hover{
     font-size: 54px;
     line-height: 58px;
   }
-}
+  
