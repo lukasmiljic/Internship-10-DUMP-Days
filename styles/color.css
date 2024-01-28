@@ -1,10 +1,10 @@
 :root {
   /* MONO */
-  --black-color: #000;
+  --bg: #000;
   --dark-grey: #54545f;
   --grey: #8a8a99;
   --light-grey: #e9e9ec;
-  --white: #f5f5f7;
+  --fg: #f5f5f7;
   --white-20: #f5f5f733;
   --white-5: #f5f5f70d;
 
@@ -54,5 +54,60 @@
     rgba(197, 55, 84, 0.68) 53.11%,
     rgba(250, 82, 64, 0.68) 70.34%,
     rgba(252, 221, 163, 0.68) 103.4%
+  );
+
+  /*STATISTICS GRADIENTS*/
+  --stat-grad-1: conic-gradient(
+    from 90deg at 73.72% 50%,
+    #c75593 -157.26deg,
+    #6a4293 89.27deg,
+    #c75593 202.74deg,
+    #6a4293 449.27deg
+  );
+
+  --stat-grad-2: conic-gradient(
+    from 117.55deg at 29.17% 50%,
+    #694696 -23.56deg,
+    #2361a6 107.58deg,
+    #c75593 232.77deg,
+    #694696 336.44deg,
+    #2361a6 467.58deg
+  );
+
+  --stat-grad-3: conic-gradient(
+    from 117.55deg at 29.17% 50%,
+    #694696 -40.41deg,
+    #2361a6 38.26deg,
+    #694696 319.59deg,
+    #2361a6 398.26deg
+  );
+
+  --stat-grad-4: conic-gradient(
+    from 103.77deg at -7.1% 67.63%,
+    #c75593 -1.87deg,
+    #2361a6 281.68deg,
+    #694696 332.49deg,
+    #c75593 358.13deg,
+    #2361a6 641.68deg
+  );
+
+  --stat-grad-5: conic-gradient(
+    from 80.16deg at 53.24% 50%,
+    #694696 -47.23deg,
+    #804b73 97.91deg,
+    #ab415c 150.01deg,
+    #c35493 216.76deg,
+    #694696 312.77deg,
+    #804b73 457.91deg
+  );
+
+  --stat-grad-6: conic-gradient(
+    from 70.42deg at 62.39% 60.9%,
+    #694696 -38.75deg,
+    #c88f6f 117.45deg,
+    #ab415c 221.55deg,
+    #804b73 291.42deg,
+    #694696 321.25deg,
+    #c88f6f 477.45deg
   );
 }
