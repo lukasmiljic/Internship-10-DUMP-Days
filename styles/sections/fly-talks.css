@@ -35,6 +35,10 @@
   align-items: center;
 }
 
+.fly-talks-aside img {
+  object-fit: cover;
+}
+
 #img1 {
   width: 411px;
   height: 304px;
@@ -120,6 +124,8 @@
     width: 287px;
     height: 189px;
     position: relative;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
     left: -79px;
     top: 45px;
   }
