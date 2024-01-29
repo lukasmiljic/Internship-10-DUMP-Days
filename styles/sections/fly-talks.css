@@ -14,25 +14,22 @@
 }
 
 .fly-talks-section .title {
-  font-family: 'Fuse Display';
+  font-family: "Fuse Display";
   font-size: 117px;
   line-height: 120px;
   display: inline;
 }
 
-.p-wrapper{
+.p-wrapper {
   width: 400px;
 }
 
-.fly-talks-main p{
+.fly-talks-main p {
   font-size: 16px;
   line-height: 24px;
 }
 
 .fly-talks-aside {
-  /* background-color: red;
-  position: relative;
-  width: fit-content; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -69,4 +66,63 @@
   height: 540px;
   background-color: gray;
   z-index: 3;
+}
+
+@media screen and (max-width: 1250px) {
+  .fly-talks-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .fly-talks-aside {
+    flex-direction: column-reverse;
+    overflow: hidden;
+  }
+  .images-2-and-3 {
+    top: 0;
+    column-gap: 0px;
+  }
+  #img1 {
+    width: 191px;
+    height: 252px;
+    position: relative;
+    top: -85px;
+    z-index: 1;
+  }
+  #img2 {
+    width: 287px;
+    height: 189px;
+  }
+  #img3 {
+    width: 207px;
+    height: 302px;
+  }
+}
+@media screen and (max-width: 525px) {
+  .fly-talks-aside{
+    width: 100%;
+    margin-top: 27px;
+  }
+  .images-2-and-3{
+    flex-direction: column;
+  }
+  #img1 {
+    width: 191px;
+    height: 252px;
+    position: relative;
+    top: -269px;
+    z-index: 1;
+    left: -58px;
+  }
+  #img2 {
+    width: 287px;
+    height: 189px;
+    position: relative;
+    left: -79px;
+    top: 45px;
+  }
+  #img3 {
+    top: -193px;
+    position: relative;
+    right: -116px;
+  }
 }
