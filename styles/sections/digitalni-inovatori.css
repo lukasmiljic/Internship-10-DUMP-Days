@@ -1,0 +1,45 @@
+.digitalni-inovatori {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 158px;
+  margin-top: 317px;
+}
+
+.digitalni-inovatori-main {
+  width: 100%;
+}
+
+.title-and-subtitle {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.title {
+  font-family: "Fuse Display";
+  font-size: 81px;
+  line-height: 88px;
+}
+
+.di-item {
+  background-color: gray;
+  width: 216px;
+  height: 312px;
+}
+
+.digitalni-inovatori-aside {
+  display: flex;
+  flex-direction: row;
+  column-gap: 24px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+#column2 {
+  margin-top: 112px;
+}

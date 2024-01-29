@@ -2,6 +2,7 @@
 @import url("./color.css");
 @import url("./gradient.css");
 @import url("./sections/hero.css");
+@import url("./sections/digitalni-inovatori.css");
 @import url("./sections/footer.css");
 
 /* CSS reset
@@ -28,4 +29,10 @@ h2 {
   color: var(--white);
   font-size: 122px;
   font-family: "Fuse Display";
+}
+
+main {
+  max-width: 1232px;
+  margin: 0 auto;
+  /* padding: 22px; */
 }
