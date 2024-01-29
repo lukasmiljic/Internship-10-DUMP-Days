@@ -1,8 +1,9 @@
 .gradient-button {
+  display: inline-block;
   text-transform: uppercase;
   font-size: 16px;
   letter-spacing: 0.08em;
-  color: white;
+  color: var(--fg);
   padding: 14px 23.5px;
   border: none;
   outline: none;
@@ -19,13 +20,13 @@
   right: 2px;
   bottom: 2px;
   left: 2px;
-  background-color: black;
+  background-color: var(--bg);
   z-index: -1;
   transition: 200ms ease-in-out;
 }
 
 .gradient-button::after {
-  color: white;
+  color: var(--fg);
   content: attr(data);
   font-size: 16px;
   font-family: "Fuse Display";
@@ -41,7 +42,7 @@
 }
 
 .gradient-button:hover::after {
-  color: black;
+  color: var(--bg);
 }
 
 .gradient-text {
