@@ -3,6 +3,7 @@
 @import url("./gradient.css");
 @import url("./sections/hero.css");
 @import url("./sections/footer.css");
+@import url("./sections/fly-talks.css");
 
 /* CSS reset
 * {
@@ -28,4 +29,12 @@ h2 {
   color: var(--white);
   font-size: 122px;
   font-family: "Fuse Display";
+}
+
+main {
+  /* display: flex;
+  flex-direction: column; */
+  max-width: 1232px;
+  margin: 0 auto;
+  padding: 22px;
 }
