@@ -1,0 +1,56 @@
+.app_title {
+  text-align: center;
+}
+.app_content_paragraph {
+  text-transform: uppercase;
+  margin-bottom: 50%;
+}
+.app_h4 {
+  margin: 0rem;
+  margin-bottom: 3rem;
+  padding: 0rem;
+  white-space: nowrap;
+}
+.schedule_sections {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+.app_content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.schedule {
+  width: 360px;
+}
+
+@media screen and (max-width: 1024px) {
+  .app_content {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .schedule {
+    width: 95%;
+  }
+
+  .app_image {
+    order: -1;
+  }
+  .app_content_paragraph {
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .app_title {
+    font-size: 54px;
+  }
+  .app_h4 {
+    font-size: 36px;
+  }
+
+  .app_image {
+    width: 100%;
+    height: auto;
+  }
+}
