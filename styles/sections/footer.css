@@ -64,6 +64,9 @@
   gap: 1rem;
   align-items: center;
 }
+a {
+  color: var(--white);
+}
 @media screen and (max-width: 1225px) {
   .footer__title {
     font-size: 54px;
