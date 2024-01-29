@@ -98,11 +98,14 @@
   }
 }
 @media screen and (max-width: 525px) {
-  .fly-talks-aside{
+  .fly-talks-section {
+    margin-top: 198px;
+  }
+  .fly-talks-aside {
     width: 100%;
     margin-top: 27px;
   }
-  .images-2-and-3{
+  .images-2-and-3 {
     flex-direction: column;
   }
   #img1 {
