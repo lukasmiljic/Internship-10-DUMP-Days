@@ -2,8 +2,10 @@
 @import url("./color.css");
 @import url("./gradient.css");
 @import url("./sections/hero.css");
+@import url("./sections/fly-talks.css");
 @import url("./sections/digitalni-inovatori.css");
 @import url("./sections/footer.css");
+
 
 /* CSS reset
 * {
