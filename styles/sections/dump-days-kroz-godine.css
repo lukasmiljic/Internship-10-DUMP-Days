@@ -1,3 +1,13 @@
+.dump-days-kroz-godine .txt-area {
+  width: 776px;
+}
+
+.dump-days-kroz-godine .title {
+  font-size: 122px;
+  line-height: 120px;
+  font-family: "Fuse Display";
+}
+
 .griddy {
   display: grid;
   grid-template-areas: "row1" "row2";
