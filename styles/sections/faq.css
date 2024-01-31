@@ -1,0 +1,13 @@
+.faq {
+  position: relative;
+}
+
+.faq_side_photo {
+  position: absolute;
+  right: 0;
+  width: 40%;
+  height: auto;
+}
+.faq_picture {
+  position: absolute;
+}
