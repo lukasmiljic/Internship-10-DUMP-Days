@@ -1,13 +1,48 @@
+@import url("../color.css");
+.faq_picutre_mobile {
+  display: none;
+}
 .faq {
-  position: relative;
+  margin-top: 200px;
+  display: flex;
 }
-
-.faq_side_photo {
-  position: absolute;
-  right: 0;
-  width: 40%;
-  height: auto;
+.questions_divider {
+  height: 1px;
+  background-color: #fff;
+  opacity: 0.1;
+  margin: 3rem 0;
 }
-.faq_picture {
-  position: absolute;
+.faq_before_title {
+  margin: 0;
+}
+.faq_contet_title {
+  margin: 3rem 0;
+}
+.faq_help {
+  background: var(--gradient-1);
+  background-clip: border-box;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.question {
+  line-height: 16px;
+  color: var(--fg);
+  opacity: 0.8;
+  margin-top: 3rem;
+}
+@media screen and (max-width: 900px) {
+  .faq_picutre_desktop {
+    display: none;
+  }
+  .faq_picutre_mobile {
+    display: block;
+  }
+  .faq {
+    flex-direction: column;
+  }
+  .faq_picutre_mobile {
+    display: flex;
+    justify-content: end;
+  }
 }
