@@ -4,6 +4,7 @@
 @import url("./sections/hero.css");
 @import url("./sections/footer.css");
 @import url("./sections/fly-talks.css");
+@import url("./sections/app.css");
 
 /* CSS reset
 * {
@@ -30,7 +31,10 @@ h2 {
   font-size: 122px;
   font-family: "Fuse Display";
 }
-
+h4 {
+  font-size: 54px;
+  font-family: "Fuse Display";
+}
 main {
   /* display: flex;
   flex-direction: column; */
