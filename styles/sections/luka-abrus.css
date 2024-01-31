@@ -1,0 +1,33 @@
+.luka-abrus {
+  width: 100%;
+  max-width: 1440px;
+  background-image: url("../../assets/images/luka-arbus/bg.png");
+  margin-top: 390px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  column-gap: 24px;
+}
+
+.luka {
+  width: 496px;
+  height: 496px;
+  margin-top: 70px;
+}
+
+.txt {
+  max-width: 500px;
+}
+
+.txt p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.txt .five {
+  font-family: "Fuse Display";
+  font-size: 34px;
+  text-transform: uppercase;
+  margin-top: 32px;
+  margin-bottom: 63px;
+}
