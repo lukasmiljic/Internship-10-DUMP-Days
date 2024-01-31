@@ -1,0 +1,102 @@
+.trazis-posao {
+  /* background-color: red; */
+}
+
+.trazis-posao .title {
+  font-family: "Fuse Display";
+  font-size: 54px;
+  line-height: 68px;
+  margin-bottom: 42px;
+}
+
+.trazis-posao p {
+  width: 400px;
+}
+
+.trazis-posao .arrow {
+  padding: 16px;
+  margin-bottom: 26px;
+}
+
+.trazis-posao #left {
+  transform: rotate(180deg);
+  margin-right: 16px;
+}
+
+.oglas-container {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  width: 100%;
+  overflow: scroll;
+  /* background-color: rebeccapurple; */
+  scrollbar-width: none;
+  margin-bottom: 117px;
+}
+
+.oglas-container::-webkit-scrollbar {
+  display: none;
+}
+
+.oglas {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  padding: 19px 24px;
+  /* background-color: red; */
+}
+
+.oglas-main {
+  width: 233px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.oglas-main .titula {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-family: "Fuse Display";
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.oglas-aside {
+  width: 396px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.lokacija {
+  position: relative;
+  left: 1.5em;
+}
+
+.lokacija::before {
+  content: "";
+  position: absolute;
+  background: url("../../assets/images/trazis-posao/location.svg") no-repeat;
+  background-size: contain;
+  left: -1.5em;
+  top: 0em;
+  width: 1em;
+  height: 1em;
+}
+
+.oglas-aside .saznaj-vise {
+  display: inline-block;
+  margin-top: 16px;
+  position: relative;
+}
+
+.oglas-aside .saznaj-vise::after {
+  content: "";
+  position: absolute;
+  background: url("../../assets/images/trazis-posao/arrow.svg") no-repeat;
+  background-size: contain;
+  top: 0.25em;
+  right: -2em;
+  width: 1em;
+  height: 1em;
+}
