@@ -1,0 +1,42 @@
+.sponsors_title {
+  text-align: center;
+}
+.sponsors_gold_logo {
+  display: flex;
+  justify-content: space-around;
+}
+.sponsors_gold_logo_outer_container {
+  margin-bottom: 10rem;
+}
+.sponsors_gold_sections {
+  display: flex;
+  flex-direction: column;
+  max-width: 1024px;
+  gap: 3rem;
+}
+.sponsors_gold_sections_outer_contianer {
+  display: flex;
+  justify-content: center;
+}
+.sponsors_gold_sections_first_model {
+  display: flex;
+  gap: 2rem;
+}
+.sponsors_gold_sections_title {
+  font-size: 24px;
+}
+.sponsors_gold_sections_text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  opacity: 0.8;
+}
+.sponsors_gold_sections_second_model {
+  display: flex;
+  gap: 2rem;
+}
+.sponsors_gold_sections_second_model_text {
+  order: -1;
+}
