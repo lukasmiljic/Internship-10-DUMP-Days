@@ -1,0 +1,147 @@
+.griddy {
+  display: grid;
+  grid-template-areas: "row1" "row2";
+  gap: 8px;
+  width: min-content;
+}
+
+.griddy .img {
+  background-color: gray;
+}
+
+.griddy .row1 {
+  display: grid;
+  gap: 8px;
+  grid-template-areas: "grid1 grid2 grid2" "grid1 grid3 grid3";
+}
+
+.griddy .grid1 {
+  grid-area: grid1;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  align-items: end;
+}
+
+.griddy #dd-img1 {
+  width: 236px;
+  height: 248px;
+}
+.griddy #dd-img2 {
+  width: 215px;
+  height: 108px;
+}
+
+.griddy .grid2 {
+  grid-area: grid2;
+  display: flex;
+  align-items: end;
+  column-gap: 8px;
+}
+
+.griddy #dd-img3 {
+  width: 217px;
+  height: 175px;
+}
+.griddy #dd-img4 {
+  width: 121px;
+  height: 210px;
+}
+.griddy #dd-img5 {
+  width: 217px;
+  height: 131px;
+}
+
+.griddy .grid3 {
+  grid-area: grid3;
+  display: grid;
+  grid-template-areas: "img1 img2" "img1 img3";
+  gap: 8px;
+}
+
+.griddy #dd-img6 {
+  grid-area: img1;
+  width: 252px;
+  height: 316px;
+}
+.griddy #dd-img7 {
+  grid-area: img2;
+  width: 310px;
+  height: 171px;
+}
+.griddy #dd-img8 {
+  grid-area: img3;
+  width: 310px;
+  height: 137px;
+}
+
+.griddy .row2 {
+  display: grid;
+  gap: 8px;
+  grid-template-areas: "grid4 grid4" "img11 grid5";
+}
+
+.griddy .grid4 {
+  grid-area: grid4;
+  display: flex;
+  flex-direction: row;
+  column-gap: 8px;
+}
+
+.griddy #dd-img9 {
+  width: 323px;
+  height: 163px;
+}
+.griddy #dd-img10 {
+  width: 359px;
+  height: 163px;
+}
+
+.griddy #dd-img11 {
+  grid-area: img11;
+  width: 143px;
+  height: 207px;
+}
+
+.griddy .grid5 {
+  grid-area: grid5;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.griddy .grid6 {
+  display: flex;
+  flex-direction: row;
+  column-gap: 8px;
+}
+
+.griddy #dd-img12 {
+  width: 314px;
+  height: 173px;
+}
+.griddy #dd-img13 {
+  width: 313px;
+  height: 173px;
+}
+
+.griddy .grid7 {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  column-gap: 8px;
+}
+
+.griddy #dd-img14 {
+  width: 277px;
+  height: 365px;
+}
+.griddy #dd-img15 {
+  width: 135px;
+  height: 125px;
+}
+.griddy #dd-img16 {
+  width: 236px;
+  height: 164px;
+}
