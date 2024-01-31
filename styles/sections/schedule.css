@@ -1,4 +1,40 @@
 @import url(../typefaces.css);
+@import url(../color.css);
+.schedule_title {
+  text-align: center;
+}
+
+.schedule_days {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.schedule_days_friday {
+  font-size: 24px;
+  background: var(--gradient-2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 16px;
+  border-bottom: 1px solid;
+  border-image: var(--gradient-2) 1; /* 1 specifies the border-image slice, adjust as needed */
+  border-image-slice: 1;
+}
+.schedule_days_saturday {
+  color: var(--dark-grey);
+  font-size: 24px;
+}
+.schedule_days_divider_outer_container {
+  display: flex;
+  justify-content: center;
+}
+.schedule_days_divider {
+  height: 1px;
+  width: 100%;
+  background-color: #fff;
+  opacity: 0.1;
+  max-width: 920px;
+}
 .schedule_card_opened_contant_title_section_outer_container_mobile {
   display: none;
 }
@@ -19,6 +55,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .schedule_by_hours {
   display: flex;
   align-items: center;
@@ -143,6 +180,9 @@
   }
   .schedule_card_opened_content_outer_container {
     padding: 0.5rem;
+  }
+  .schedule_title {
+    font-size: 54px;
   }
 
   .schedule_card_opened_contant_title_section_outer_container_mobile {
