@@ -12,6 +12,7 @@
 }
 .schedule_days_friday {
   font-size: 24px;
+  line-height: 28px;
   background: var(--gradient-2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -23,6 +24,21 @@
 .schedule_days_saturday {
   color: var(--dark-grey);
   font-size: 24px;
+  line-height: 28px;
+}
+.schedule_categories {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.schedule_categories_passive {
+  color: var(--dark-grey);
+}
+.schedule_categories_rectangle {
+  width: 1px;
+  height: 17px;
+  background-color: var(--grey);
 }
 .schedule_days_divider_outer_container {
   display: flex;
@@ -259,5 +275,8 @@
     opacity: 0.1;
     height: 1px;
     margin: 1rem 0;
+  }
+  .schedule_categories {
+    gap: 0.7rem;
   }
 }
