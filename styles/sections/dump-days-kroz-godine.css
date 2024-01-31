@@ -1,3 +1,16 @@
+body {
+  overflow-x: hidden;
+}
+
+.dump-days-kroz-godine {
+  display: flex;
+  justify-content: center;
+}
+
+.dump-days-kroz-godine .rotation-wrapper {
+  transform: rotate(-30deg);
+}
+
 .dump-days-kroz-godine .txt-area {
   width: 776px;
 }
