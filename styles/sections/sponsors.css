@@ -1,5 +1,9 @@
+.sponsors_title_main {
+  text-align: center;
+}
 .sponsors_title {
   text-align: center;
+  line-height: 24px;
 }
 .sponsors_gold_logo {
   display: flex;
@@ -47,6 +51,7 @@
 .sponsors_silver_logo_outer_container {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .sponsors_silver_logo {
   display: flex;
@@ -57,8 +62,54 @@
 .hr_cloud_photo {
   margin: 2rem;
 }
+
+.sponsors_bronze_logo {
+  display: flex;
+  justify-content: center;
+}
+.sponsors_bronze_logo_first_section {
+  display: flex;
+  justify-content: center;
+}
+
+.sponsors_partners_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.award_game_section_logo_outer_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.award_game_section_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.news_sponsors_section_logo_outer_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.news_sponsors_section_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.friends_section_logo_outer_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.friends_section_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media screen and (max-width: 950px) {
-  .sponsors_title {
+  .sponsors_title_main {
     font-size: 54px;
   }
   .sponsors_gold_logo_outer_container {
@@ -70,6 +121,9 @@
     width: 30%;
     height: auto;
     gap: 3rem;
+  }
+  .sponsors_title {
+    font-size: 36px;
   }
   .sponsors_gold_sections {
     justify-content: center;
@@ -88,5 +142,19 @@
   .sponsors_gold_sections_first_model_image_file {
     max-width: 100%;
     height: auto;
+  }
+  .sponsors_silver_logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .sponsors_silver_sections_title {
+    font-size: 36px;
+  }
+  .sponsors_partners_logo_first_section {
+    display: flex;
+    flex-direction: column;
+  }
+  .news_sponsors_section_logo {
+    flex-direction: column;
   }
 }
