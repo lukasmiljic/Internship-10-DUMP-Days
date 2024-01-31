@@ -15,11 +15,27 @@
 
 .trazis-posao .arrow {
   padding: 16px;
+  margin-bottom: 26px;
 }
 
 .trazis-posao #left {
   transform: rotate(180deg);
   margin-right: 16px;
+}
+
+.oglas-container {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  width: 100%;
+  overflow: scroll;
+  /* background-color: rebeccapurple; */
+  scrollbar-width: none;
+  margin-bottom: 117px;
+}
+
+.oglas-container::-webkit-scrollbar {
+  display: none;
 }
 
 .oglas {
@@ -40,6 +56,7 @@
 
 .oglas-main .titula {
   margin-top: 16px;
+  margin-bottom: 16px;
   font-family: "Fuse Display";
   font-size: 36px;
   line-height: 40px;
