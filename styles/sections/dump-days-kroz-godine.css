@@ -1,17 +1,19 @@
-body {
-  overflow-x: hidden;
-}
-
 .dump-days-kroz-godine {
   display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 
 .dump-days-kroz-godine .rotation-wrapper {
-  transform: rotate(-30deg);
+  display: flex;
+  flex-direction: column;
+  transform: rotate(-15deg);
+  margin-left: 266px;
+  padding-bottom: 50px;
 }
 
 .dump-days-kroz-godine .txt-area {
+  align-self: center;
   width: 776px;
 }
 
@@ -167,4 +169,23 @@ body {
 .griddy #dd-img16 {
   width: 236px;
   height: 164px;
+}
+
+@media screen and (max-width: 1111px) {
+  .dump-days-kroz-godine .rotation-wrapper {
+    margin-left: 80px;
+  }
+  .dump-days-kroz-godine .txt-area {
+    width: 327px;
+  }
+  .dump-days-kroz-godine .title {
+    font-size: 54px;
+    line-height: 68px;
+  }
+}
+
+@media screen and (max-width: 1111px) {
+  .dump-days-kroz-godine .rotation-wrapper {
+    margin-left: 316px;
+  }
 }
