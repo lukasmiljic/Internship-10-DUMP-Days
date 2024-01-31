@@ -8,7 +8,12 @@
 .schedule_card_opened_content_title_mobile {
   display: none;
 }
-
+.schedule_card_closed_content_title_mobile {
+  display: none;
+}
+.schedule_card_closed_contant_section_outer_container {
+  display: none;
+}
 .schedule_by_hours_outer_container {
   display: flex;
   justify-content: center;
@@ -175,7 +180,44 @@
   .schedule_card_closed_content_outer_container {
     display: none;
   }
-  .schedule_card_closed_contant_title_section_outer_container_mobile {
+
+  .schedule_card_closed {
     display: block;
+  }
+  .schedule_card_closed_contant_section_outer_container {
+    display: block;
+  }
+  .schedule_card_closed_contant_section_outer_container {
+    padding: 0.5rem;
+  }
+  .schedule_card_closed_contant_title_section_outer_container_mobile {
+    display: flex;
+    justify-content: space-between;
+  }
+  .schedule_card_closed_hours {
+    display: none;
+  }
+  .schedule_card_closed_content_title_mobile {
+    display: flex;
+  }
+  .schedule_card_closed_content_arrow_down {
+    margin-left: 15%;
+  }
+  .schedule_card_closed_content_title_mobile {
+    display: flex;
+    flex-direction: column;
+  }
+  .schedule_card_closed_content_title_mobile {
+    display: flex;
+    gap: 1rem;
+  }
+  .schedule_card_closed_content_domain {
+    margin-top: 1rem;
+  }
+  .schedule_card_closed_divider {
+    background-color: #fff;
+    opacity: 0.1;
+    height: 1px;
+    margin: 1rem 0;
   }
 }
