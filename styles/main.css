@@ -2,9 +2,18 @@
 @import url("./color.css");
 @import url("./gradient.css");
 @import url("./sections/hero.css");
-@import url("./sections/footer.css");
+@import url("./sections/posao.css");
 @import url("./sections/fly-talks.css");
 @import url("./sections/schedule.css");
+@import url("./sections/app.css");
+@import url("./sections/faq.css");
+@import url("./sections/fesb.css");
+@import url("./sections/digitalni-inovatori.css");
+@import url("./sections/luka-abrus.css");
+@import url("./sections/faq.css");
+@import url("./sections/online.css");
+@import url("./sections/footer.css");
+
 /* CSS reset
 * {
   margin: 0;
@@ -29,11 +38,12 @@ h2 {
   font-size: 122px;
   font-family: "Fuse Display";
 }
-
+h4 {
+  font-size: 54px;
+  font-family: "Fuse Display";
+}
 main {
-  /* display: flex;
-  flex-direction: column; */
   max-width: 1232px;
   margin: 0 auto;
-  padding: 22px;
+  /* padding: 22px; dodat u mobile layout a ne ovdi*/
 }
