@@ -1,0 +1,35 @@
+@import url("../color.css");
+.online_content_mobile_button {
+  display: none;
+}
+.online_section {
+  display: flex;
+}
+.online_image {
+  width: 100%;
+}
+.online_image img {
+  width: 100%;
+  height: auto;
+}
+.online_content_text {
+  color: var(--fg);
+  margin-bottom: 2rem;
+}
+@media screen and (max-width: 1024px) {
+  .online_content_desktop_button {
+    display: none;
+  }
+  .online_content_mobile_button {
+    display: block;
+  }
+  .online_section {
+    flex-direction: column;
+  }
+  .online_content_title {
+    font-size: 54px;
+  }
+  .online_content_title {
+    line-height: 68px;
+  }
+}
