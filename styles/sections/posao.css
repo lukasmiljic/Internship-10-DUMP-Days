@@ -68,6 +68,35 @@
   line-height: 24px;
 }
 
+.lokacija {
+  position: relative;
+  left: 1.5em;
+}
+
+.lokacija::before {
+  content: "";
+  position: absolute;
+  background: url("../../assets/images/trazis-posao/location.svg") no-repeat;
+  background-size: contain;
+  left: -1.5em;
+  top: 0em;
+  width: 1em;
+  height: 1em;
+}
+
 .oglas-aside .saznaj-vise {
+  display: inline-block;
   margin-top: 16px;
+  position: relative;
+}
+
+.oglas-aside .saznaj-vise::after {
+  content: "";
+  position: absolute;
+  background: url("../../assets/images/trazis-posao/arrow.svg") no-repeat;
+  background-size: contain;
+  top: 0.25em;
+  right: -2em;
+  width: 1em;
+  height: 1em;
 }
