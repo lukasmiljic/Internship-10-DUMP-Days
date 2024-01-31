@@ -1,0 +1,282 @@
+@import url(../typefaces.css);
+@import url(../color.css);
+.schedule_title {
+  text-align: center;
+}
+
+.schedule_days {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.schedule_days_friday {
+  font-size: 24px;
+  line-height: 28px;
+  background: var(--gradient-2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 16px;
+  border-bottom: 1px solid;
+  border-image: var(--gradient-2) 1; /* 1 specifies the border-image slice, adjust as needed */
+  border-image-slice: 1;
+}
+.schedule_days_saturday {
+  color: var(--dark-grey);
+  font-size: 24px;
+  line-height: 28px;
+}
+.schedule_categories {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.schedule_categories_passive {
+  color: var(--dark-grey);
+}
+.schedule_categories_rectangle {
+  width: 1px;
+  height: 17px;
+  background-color: var(--grey);
+}
+.schedule_days_divider_outer_container {
+  display: flex;
+  justify-content: center;
+}
+.schedule_days_divider {
+  height: 1px;
+  width: 100%;
+  background-color: #fff;
+  opacity: 0.1;
+  max-width: 920px;
+}
+.schedule_card_opened_contant_title_section_outer_container_mobile {
+  display: none;
+}
+.schedule_card_closed_contant_title_section_outer_container_mobile {
+  display: none;
+}
+.schedule_card_opened_content_title_mobile {
+  display: none;
+}
+.schedule_card_closed_content_title_mobile {
+  display: none;
+}
+.schedule_card_closed_contant_section_outer_container {
+  display: none;
+}
+.schedule_by_hours_outer_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.schedule_by_hours {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 920px;
+}
+.schedule_card_opened_hours {
+  min-width: 100px;
+  margin: 3rem;
+}
+.schedule_card_opened {
+  background-color: #f5f5f70d;
+  max-width: 920px;
+  display: flex;
+}
+.schedule_card_opened_content {
+  margin-top: 1rem;
+}
+.schedule_card_opened_hours_text {
+  margin: 0;
+}
+.schedule_card_opened_content_outer_container {
+  padding: 2rem 2rem;
+}
+.schedule_card_opened_contant_title_section_outer_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.schedule_card_opened_contant_title_section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 500px;
+}
+.schedule_card_opened_content_social_media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.schedule_card_opened_content_text {
+  opacity: 0.8;
+  line-height: 24px;
+}
+.schedule_card_opened_divider {
+  background-color: #fff;
+  opacity: 0.1;
+  height: 1px;
+  margin: 2rem 0;
+}
+.schedule_card_opened_bottom_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.schedule_card_opened_lecturer {
+  display: flex;
+}
+.schedule_card_opened_lecturer_image {
+  margin-right: 1.5rem;
+}
+.subtitle_2 {
+  font-family: "Fuse Display";
+  font-size: 16px;
+  line-height: 18px;
+  margin: 0;
+}
+.schedule_card_closed {
+  background-color: #f5f5f70d;
+  width: 100%;
+  display: flex;
+}
+.schedule_card_closed_contant_title_section_outer_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.schedule_card_closed_contant_title_section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.schedule_card_closed_hours {
+  min-width: 100px;
+  margin: 3rem;
+}
+.schedule_card_closed_content {
+  width: 100%;
+}
+.schedule_card_closed_content_outer_container {
+  padding: 2rem;
+  width: 100%;
+  display: flex;
+}
+.schedule_card_closed_lecturer_info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+}
+.schedule_card_closed_lecturer_info_circle {
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.schedule_card_closed_content_social_media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.schedule_card_closed_hours_text {
+  margin: 0;
+}
+@media screen and (max-width: 800px) {
+  .schedule_card_opened_contant_title_section_outer_container {
+    display: none;
+  }
+  .schedule_card_opened_content_outer_container {
+    padding: 0.5rem;
+  }
+  .schedule_title {
+    font-size: 54px;
+  }
+
+  .schedule_card_opened_contant_title_section_outer_container_mobile {
+    display: flex;
+    justify-content: space-between;
+  }
+  .schedule_card_opened_content_title_mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .schedule_card_opened_content_domain {
+    margin-top: 1rem;
+  }
+  .schedule_card_opened_content_arrow_up {
+    margin-left: 15%;
+  }
+  .schedule_card_opened_hours {
+    display: none;
+  }
+  .schedule_card_opened_bottom_section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .lecturer_role {
+    margin: 0;
+  }
+  .subtitle_2 {
+    margin: 0;
+  }
+  .schedule_card_opened_lecturer_company {
+    margin-top: -0.5rem;
+  }
+
+  .schedule_card_closed_content_outer_container {
+    display: none;
+  }
+
+  .schedule_card_closed {
+    display: block;
+  }
+  .schedule_card_closed_contant_section_outer_container {
+    display: block;
+  }
+  .schedule_card_closed_contant_section_outer_container {
+    padding: 0.5rem;
+  }
+  .schedule_card_closed_contant_title_section_outer_container_mobile {
+    display: flex;
+    justify-content: space-between;
+  }
+  .schedule_card_closed_hours {
+    display: none;
+  }
+  .schedule_card_closed_content_title_mobile {
+    display: flex;
+  }
+  .schedule_card_closed_content_arrow_down {
+    margin-left: 15%;
+  }
+  .schedule_card_closed_content_title_mobile {
+    display: flex;
+    flex-direction: column;
+  }
+  .schedule_card_closed_content_title_mobile {
+    display: flex;
+    gap: 1rem;
+  }
+  .schedule_card_closed_content_domain {
+    margin-top: 1rem;
+  }
+  .schedule_card_closed_divider {
+    background-color: #fff;
+    opacity: 0.1;
+    height: 1px;
+    margin: 1rem 0;
+  }
+  .schedule_categories {
+    gap: 0.7rem;
+  }
+}
