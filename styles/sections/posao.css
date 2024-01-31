@@ -1,0 +1,56 @@
+.trazis-posao {
+  /* background-color: red; */
+}
+
+.trazis-posao .title {
+  font-family: "Fuse Display";
+  font-size: 54px;
+  line-height: 68px;
+  margin-bottom: 42px;
+}
+
+.trazis-posao p {
+  width: 400px;
+}
+
+.trazis-posao .arrow {
+  padding: 16px;
+}
+
+.trazis-posao #left {
+  transform: rotate(180deg);
+  margin-right: 16px;
+}
+
+.oglas {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  padding: 19px 24px;
+  /* background-color: red; */
+}
+
+.oglas-main {
+  width: 233px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.oglas-main .titula {
+  margin-top: 16px;
+  font-family: "Fuse Display";
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.oglas-aside {
+  width: 396px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.oglas-aside .saznaj-vise {
+  margin-top: 16px;
+}
