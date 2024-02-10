@@ -100,3 +100,12 @@
   width: 1em;
   height: 1em;
 }
+
+@media screen and (max-width: 525px) {
+  .oglas{
+    flex-direction: column;
+  }
+  .side-art{
+    content: url("../../assets/images/sideimage.png");
+  }
+}

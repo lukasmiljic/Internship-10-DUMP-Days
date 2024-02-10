@@ -21,7 +21,7 @@
 }
 
 .p-wrapper {
-  width: 400px;
+  max-width: 400px;
 }
 
 .fly-talks-main p {
